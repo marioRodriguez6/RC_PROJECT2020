@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: url(/assets/img/background_todoapp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.register-container{
+    width:  100%;
+    padding: 15px;
+}
+
+.form-container{
+    background-color: white;
+    opacity: 0.90;
+    margin-top: 150px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+input[type="text"], input[type="password"]{
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+.input-container{
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+
+#icon{
+    min-width: 50px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.register-btn{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+a:hover{
+    color: black;
+}
+
+@media(min-width:768px) {
+    .form-container{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+    }
+}
